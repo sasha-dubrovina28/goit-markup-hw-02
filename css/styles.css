@@ -12,12 +12,38 @@ a {
 header .logo-accent {
     color: #4D5AE5;
 }
-.link {
-    list-style-type: none;
-    text-decoration: none;
+h1, h2, h3, p, a, button {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+link {
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .logo-accent {
     font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
@@ -25,24 +51,27 @@ header .logo-accent {
 
 .logo-header {
     font-family: "Raleway", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
     color: #2E2F42;
     text-decoration: none;
 }
 
+.site-footer p {
+    color: #f4f4fd;
+}
 .site-footer .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #f4f4fd;
     text-decoration: none;
 }
 
 .site-footer .logo-accent {
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 
 .hero {
@@ -51,20 +80,31 @@ header .logo-accent {
 }
 .hero-title {
     color: #FFFFFF;
-    font-family: "Roboto", bold;
+    font-family: "Roboto";
     text-align: center;
     font-size: 56px;
+    font-weight: 700;
 }
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
 }
 .section-title {
+    background-color: #f4f4fd;
+}
+.team {
     text-align: center;
     background-color: #F4F4FD;
-    color: #2E2F42;
-    font-size: 36px;
+}
+.team-list li {
+    background-color: #ffffff;
 }
 .team-name {
     text-align: center;
@@ -76,11 +116,13 @@ header .logo-accent {
     color: #434455;
     font-size: 16px;
 }
-.portfolio {
+
+.portfolio-title {
     color: #2E2F42;
-    font-family: "Roboto", bold;
+    font-family: "Roboto";
     text-align: center;
     font-size: 36px;
+    font-weight: 700;
 }
 .portfolio-list {
     color: #2E2F42;
@@ -88,12 +130,13 @@ header .logo-accent {
 }
 .site-footer {
     background-color: #2E2F42;
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
 
 .page-nav .link {
     color: #2E2F42;
     font-weight: 500;
+    font-size: 16px;
 }
 .page-nav .link:hover,
 .page-nav .link:focus,
